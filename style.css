@@ -20,12 +20,13 @@ body {
   justify-content: space-between;
 }
 .main-text{
-  display:flex;
-  font-size: 5rem;
+  /* display:flex;
+  font-size: 3.2rem;
   justify-content:flex-start;
-  align-items:center;
+  align-items:center; */
+  /* text-align:center; */
 }
-.changing-text{
+.highlighted-text{
   text-decoration: underline dashed rgb(55, 209, 55);
 }
 .top{
@@ -33,16 +34,37 @@ body {
   align-items:top;
   justify-content:top;
 }
+.slogan {
+}
+.hero-container{
+  display:flex;
+  font-size: 3.2rem;
+  /* justify-content:flex-start; */
+  align-items:center; 
+  /* align-items:flex-start;  */
+  flex-grow:2;
+  
+}
 .sidebar {
   display:flex;
   flex-direction:column;
   justify-content: space-between;
-  margin-top:20px;
-  margin-bottom:20px;
+  /* margin-top:20px; */
+  /* margin-bottom:20px; */
 }
 .sidebar-left{
-  margin-left:10px;
+  /* margin-left:10px; */
 }
 .sidebar-right{
-  margin-right:10px;
+  /* margin-right:10px; */
+}
+.card{
+  border-style: solid;
+  background:rgb(255, 255, 255);
+  padding: 20px;
+}
+.shadow {
+  -webkit-box-shadow: 3px 3px 1px 6px rgb(0, 0, 0);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    3px 3px 1px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         5px 8px 1px 1px rgb(0, 0, 0);  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 }
